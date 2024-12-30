@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&family=Didact+Gothic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Montserrat, sans-serif;
+    color: rgb(45, 60, 72);
+    background-color: rgb(136, 172, 203);
+    margin: 20px;
+}
+
+div {
+    display: grid;
+    margin-top: 25px;
+}
+
+legend {
+    font-style: italic;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+a {
+    color: rgb(45, 60, 72);
+}
+
+li {
+    float: left;
+    position: relative;
+    left: 35%;
+    margin-right: 75px;
+    list-style-type: "\1F525";
+    transition: font-size 0.5s;
+    transition: font-weight 0.5s;
+}
+
+li:hover {
+    font-weight: bold;
+    font-size: larger;
+}
+
+form {
+    border: 1px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: aliceblue;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: rgb(95, 171, 237);
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    background-color: rgb(166, 192, 214);
+}
+
+button[type="reset"]:hover,
+button[type="submit"]:hover {
+    background-color: rgb(95, 171, 237);
+}
+.buttons {
+    display: block;
+    margin-right: 25px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(46, 46, 75);
+    color: white;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: aliceblue;
+}
+
+tr:hover {
+    background-color: rgb(166, 192, 214);
+}
+
+footer {
+    font-style: italic;
+    font-size: 14px;
+}
